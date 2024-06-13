@@ -20,22 +20,44 @@ else:
     print(third, "is the largest number")
 
 # a program that checks if a number is even or odd
-no1 = 17
+no1 = 23
 no2 = 14
-def check_even_odd (no1):
-    if no1 % 2 == 0:
-        return  "The number is even"
-    else:
-        return "The number is odd"
+if no1 == 0:
+    print(no1, "neutral")
+elif no1 % 2 == 0:
+    print(no1, "Is even")
+else:
+    print(no1, "is odd")
 
-result = check_even_odd(no1)
-print(result)
+# A python program that returns the area of a rectangle
+# A = L * W
+length =20
+width =5
+area =length * width
+print( "this area is" , area)
 
-def check_even_odd (no1):
-    if no2 % 2 == 0:
-        return  "The number is even"
-    else:
-        return "The number is odd"
 
-result = check_even_odd(no2)
-print(result)
+# Area of a trapezium
+# a = 0.5*(a+b)*h
+height = 12
+side1 = 13
+side2 = 17
+area = 0.5 * height * (side1 + side2)
+print("The area is", area)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
