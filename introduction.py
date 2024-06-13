@@ -1,4 +1,4 @@
-# print is a method used to display values
+# print is a method used to display values and comes with a bracket
 
 
 
